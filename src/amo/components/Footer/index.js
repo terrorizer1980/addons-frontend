@@ -52,7 +52,6 @@ export class FooterBase extends React.Component<InternalProps> {
               />
             </a>
           </div>
-
           <section className="Footer-amo-links">
             <h4 className="Footer-links-header">
               <Link href="/">{i18n.gettext('Add-ons')}</Link>
@@ -126,7 +125,6 @@ export class FooterBase extends React.Component<InternalProps> {
               </li>
             </ul>
           </section>
-
           <section className="Footer-browsers-links">
             <h4 className="Footer-links-header">{i18n.gettext('Browsers')}</h4>
             <ul className="Footer-links">
@@ -184,7 +182,6 @@ export class FooterBase extends React.Component<InternalProps> {
               </li>
             </ul>
           </section>
-
           <section className="Footer-product-links">
             <h4 className="Footer-links-header">{i18n.gettext('Products')}</h4>
             <ul className="Footer-links">
@@ -255,7 +252,6 @@ export class FooterBase extends React.Component<InternalProps> {
               </li>
             </ul>
           </section>
-
           <ul className="Footer-legal-links">
             <li>
               <a
@@ -282,7 +278,6 @@ export class FooterBase extends React.Component<InternalProps> {
               </a>
             </li>
           </ul>
-
           <p
             className="Footer-copyright"
             // eslint-disable-next-line react/no-danger

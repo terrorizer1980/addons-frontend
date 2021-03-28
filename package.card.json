@@ -1,0 +1,11 @@
+{
+  "name": "addons-frontend-card",
+  "version": "1.0.0",
+  "main": "node.js",
+  "browser": "web.js",
+  "style": "style.css",
+  "dependencies": {
+    "canvas": "2.7.0",
+    "node-fetch": "2.6.1"
+  }
+}
